@@ -1,0 +1,10 @@
+# data exports and outputs
+*.csv
+results/
+
+# secrets
+*.env
+
+# python cache
+__pycache__/
+.DS_Store
