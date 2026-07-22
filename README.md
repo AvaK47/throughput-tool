@@ -1,2 +1,2 @@
 # Throughput Tool
-Cycle time and throughput analysis script for a packaging line.
+Packaging line performance analysis tool for shift supervisors.
