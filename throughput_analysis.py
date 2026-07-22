@@ -2,7 +2,7 @@
 # Computes cycle time and hourly throughput for a packaging line
 
 TOTAL_RUN_SECONDS = 28800   # one 8-hour shift in seconds
-UNITS_PRODUCED = 7200       # units packed during the shift
+UNITS_PRODUCED = 7300       # includes late third-shift batch 
 
 def cycle_time_seconds(total_seconds, units):
     # seconds per unit
