@@ -1,8 +1,7 @@
 # throughput_analysis.py
 # Computes cycle time and hourly throughput for a packaging line
 
-TOTAL_RUN_SECONDS = 28800   # one 8-hour shift in seconds
-UNITS_PRODUCED = 7300       # includes late third-shift batch 
+UNITS_PRODUCED = 7100   # audited 7000 + 100 confirmed late-batch units (200 were double-counted)
 
 def cycle_time_seconds(total_seconds, units):
     # seconds per unit
